@@ -1,0 +1,1 @@
+docker exec ibm_project_mysql mysqldump -u root -p oltp_db > dump_file.sql
