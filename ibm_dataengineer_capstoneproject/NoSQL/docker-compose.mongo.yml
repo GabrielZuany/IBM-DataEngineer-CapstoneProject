@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: ibm_project_mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db
