@@ -161,9 +161,14 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Virtual Environment and some files
+.venv
+*.deb
+
 # OLTP_db
 ibm_dataengineer_capstoneproject/OLTP_Db/mysql
 ibm_dataengineer_capstoneproject/OLTP_Db/assets
 
-
-.venv
+# NoSQL
+ibm_dataengineer_capstoneproject/NoSQL/mongo
+ibm_dataengineer_capstoneproject/NoSQL/assets
