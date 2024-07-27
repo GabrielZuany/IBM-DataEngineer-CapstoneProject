@@ -49,3 +49,36 @@ The schema of an OLTP database is higly normalized so as to achieve a very low l
 You are a data engineer at an e-commerce company. Your company needs you to design a data platform that uses MongoDB as a NoSQL database. You will be using MongoDB to store the e-commerce catalog data.
 
 The basics tasks is import data into a MongoDB database, query data in a MongoDB database, and export data from MongoDB.
+
+
+---
+
+## Data Warehousing
+
+You are a data engineer hired by an ecommerce company named SoftCart.com . The company retails download only items like E-Books, Movies, Songs etc. The company has international presence and customers from all over the world. The company would like to create a data warehouse so that it can create reports like
+
+- total sales per year per country
+- total sales per month per category
+- total sales per quarter per country
+- total sales per category per country
+
+You will use your data warehousing skills to design and implement a data warehouse for the company.
+
+### What are the differences between a database and a data warehouse? 
+A database is any collection of data organized for storage, accessibility, and retrieval. A data warehouse is a type of database the integrates copies of transaction data from disparate source systems and provisions them for analytical use.
+
+The important distinction is that data warehouses are designed to handle analytics required for improving quality and costs in the new healthcare environment. A transactional database, like an EHR, doesn’t lend itself to analytics.
+
+### The High-level Distinction Between Databases and Data Warehouses
+What I will refer to as a “database” in this post is one designed to make transactional systems run efficiently. Typically, this type of database is an OLTP (online transaction processing) database. An electronic health record (EHR) system is a great example of an application that runs on an OLTP database. In fact, an OLTP database is typically constrained to a single application.
+
+The important fact is that a transactional database doesn’t lend itself to analytics. To effectively perform analytics, you need a data warehouse. A data warehouse is a database of a different kind: an OLAP (online analytical processing) database. A data warehouse exists as a layer on top of another database or databases (usually OLTP databases). The data warehouse takes the data from all these databases and creates a layer optimized for and dedicated to analytics.
+
+So the short answer to the question I posed above is this: A database designed to handle transactions isn’t designed to handle analytics. It isn’t structured to do analytics well. A data warehouse, on the other hand, is structured to make analytics fast and easy.
+aggregation.
+It the end, data warehouses can be viewed as an aggregarion of data marts.
+
+
+#### Note:
+- [ERROR] : IBM haven't build a product dataset to be loaded into productsDimTable.
+- [ERROR] : FactSales.csv don't have the product_id (or item_id) column to reference the product table. So, i can't know which products were sold. Inconsistant data.
