@@ -172,3 +172,8 @@ ibm_dataengineer_capstoneproject/OLTP_Db/assets
 # NoSQL
 ibm_dataengineer_capstoneproject/NoSQL/mongo
 ibm_dataengineer_capstoneproject/NoSQL/assets
+
+# DataWarehouse
+ibm_dataengineer_capstoneproject/DataWarehouse/assets
+ibm_dataengineer_capstoneproject/DataWarehouse/data
+ibm_dataengineer_capstoneproject/DataWarehouse/source
