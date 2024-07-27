@@ -13,6 +13,8 @@ pymysql = "^1.1.1"
 cryptography = "^42.0.8"
 pymongo = "^4.8.0"
 loguru = "^0.7.2"
+psycopg2-binary = "^2.9.9"
+faker = "^26.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
