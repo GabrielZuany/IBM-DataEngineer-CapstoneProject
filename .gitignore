@@ -177,3 +177,11 @@ ibm_dataengineer_capstoneproject/NoSQL/assets
 ibm_dataengineer_capstoneproject/DataWarehouse/assets
 ibm_dataengineer_capstoneproject/DataWarehouse/data
 ibm_dataengineer_capstoneproject/DataWarehouse/source
+
+# IBMCognosAnalytics
+ibm_dataengineer_capstoneproject/IBMCognosAnalytics/assets
+ibm_dataengineer_capstoneproject/IBMCognosAnalytics/data
+
+# DataPipelines
+ibm_dataengineer_capstoneproject/DataPipelines/assets
+ibm_dataengineer_capstoneproject/DataPipelines/data
