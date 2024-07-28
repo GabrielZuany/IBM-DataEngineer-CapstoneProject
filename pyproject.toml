@@ -15,6 +15,7 @@ pymongo = "^4.8.0"
 loguru = "^0.7.2"
 psycopg2-binary = "^2.9.9"
 faker = "^26.0.0"
+apache-airflow = { version = "2.9.3", python = ">=3.8,<3.13" }
 
 
 [tool.poetry.group.dev.dependencies]
