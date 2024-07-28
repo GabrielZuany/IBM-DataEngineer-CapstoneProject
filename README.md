@@ -82,3 +82,19 @@ It the end, data warehouses can be viewed as an aggregarion of data marts.
 #### Note:
 - [ERROR] : IBM haven't build a product dataset to be loaded into productsDimTable.
 - [ERROR] : FactSales.csv don't have the product_id (or item_id) column to reference the product table. So, i can't know which products were sold. Inconsistant data.
+
+---
+
+## Data Analytics with IBM Cognos
+
+Your company has finished setting up a data warehouse. Now you are assigned the responsibility to design a reporting dashboard that reflects the key metrics of the business. 
+
+The first exercise requires you to load data from the downloaded CSV file into a table and then list the first ten rows in the table. In the second exercise, you will create a data source in IBM Cognos Analytics (or) Google Looker Studio. In the final exercise, you will create a dashboard by performing tasks such as creating a bar chart of quarterly sales of mobile phones, a pie chart of category-wise sales of electronic goods, and a line chart of month-wise total sales for a given year. 
+
+---
+
+## Data Pipelines
+### ETL
+
+You need to keep data synchronized between different databases/data warehouses as a part of your daily routine. One task that is routinely performed is the sync up of staging data warehouse and production data warehouse. Automating this sync up will save you a lot of time and standardize your process. You will be given a set of python scripts to start with. You will use/modify them to perform the incremental data load from MySQL server which acts as a staging warehouse to the IBM DB2 or PostgreSQL which is a production data warehouse. This script will be scheduled by the data engineers to sync up the data between the staging and production data warehouse.
+
