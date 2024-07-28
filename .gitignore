@@ -185,3 +185,7 @@ ibm_dataengineer_capstoneproject/IBMCognosAnalytics/data
 # DataPipelines
 ibm_dataengineer_capstoneproject/DataPipelines/assets
 ibm_dataengineer_capstoneproject/DataPipelines/data
+ibm_dataengineer_capstoneproject/DataPipelines/airflow/config
+ibm_dataengineer_capstoneproject/DataPipelines/airflow/dags
+ibm_dataengineer_capstoneproject/DataPipelines/airflow/logs
+ibm_dataengineer_capstoneproject/DataPipelines/airflow/plugins
