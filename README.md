@@ -50,7 +50,6 @@ You are a data engineer at an e-commerce company. Your company needs you to desi
 
 The basics tasks is import data into a MongoDB database, query data in a MongoDB database, and export data from MongoDB.
 
-
 ---
 
 ## Data Warehousing
