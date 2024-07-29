@@ -190,3 +190,6 @@ ibm_dataengineer_capstoneproject/DataPipelines/airflow/dags
 ibm_dataengineer_capstoneproject/DataPipelines/airflow/logs
 ibm_dataengineer_capstoneproject/DataPipelines/airflow/plugins
 ibm_dataengineer_capstoneproject/DataPipelines/airflow/data
+
+# Big Data
+ibm_dataengineer_capstoneproject/BigDataAnalytics/assets
